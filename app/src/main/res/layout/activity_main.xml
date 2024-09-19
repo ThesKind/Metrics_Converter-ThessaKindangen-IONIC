@@ -1,0 +1,119 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Judul Aplikasi -->
+    <!-- Judul Aplikasi dengan Background Color yang Sama dengan Tombol Konversi -->
+    <!-- Judul Aplikasi dengan Background Color yang Menutupi Bagian Header -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Metric Converter"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="32dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/shared_background" /> <!-- Menggunakan drawable yang sama -->
+
+
+    <!-- Teks "Choose Metric" -->
+    <TextView
+        android:id="@+id/chooseMetricTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Jenis Konversi"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_text"
+        android:paddingBottom="8dp" />
+
+    <!-- Spinner untuk Memilih Jenis Konversi -->
+    <Spinner
+        android:id="@+id/conversionType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!-- Teks "Choose Metric" -->
+    <TextView
+        android:id="@+id/fromTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dari:"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_text"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp" />
+
+    <!-- Spinner untuk Memilih Satuan Asal -->
+    <Spinner
+        android:id="@+id/fromUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Teks "Choose Metric" -->
+    <TextView
+        android:id="@+id/toTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ke:"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_text"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp" />
+
+
+    <!-- Spinner untuk Memilih Satuan Tujuan -->
+    <Spinner
+        android:id="@+id/toUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Input Nilai yang Akan Dikonversi -->
+    <EditText
+        android:id="@+id/inputValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan nilai"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Tombol Konversi -->
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konversi"
+        android:textColor="@android:color/white"
+        android:background="@drawable/shared_background"
+        android:textSize="18sp"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:layout_marginTop="16dp" />
+
+
+
+    <!-- TextView untuk Menampilkan Hasil Konversi -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="Hasil konversi akan muncul di sini"
+        android:textColor="@android:color/black"
+        android:background="@drawable/rounded_result_background"
+        android:padding="24dp"
+        android:elevation="6dp"
+        android:textStyle="bold"
+        android:layout_marginTop="18dp" />
+
+</LinearLayout>

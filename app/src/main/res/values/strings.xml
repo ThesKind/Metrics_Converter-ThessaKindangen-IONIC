@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Metric Converter</string>
+
+    <!-- Jenis Konversi -->
+    <string-array name="conversion_types">
+        <item>Panjang</item>
+        <item>Massa</item>
+        <item>Waktu</item>
+        <item>Arus Listrik</item>
+        <item>Suhu</item>
+        <item>Intensitas Cahaya</item>
+        <item>Jumlah Zat</item>
+        <item>Kecepatan</item>
+        <item>Frekuensi</item>
+        <item>Luas</item>
+    </string-array>
+
+    <!-- Satuan untuk Konversi Panjang -->
+    <string-array name="length_units">
+        <item>Millimeter</item>
+        <item>Centimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+    </string-array>
+
+    <!-- Satuan untuk Konversi Massa -->
+    <string-array name="mass_units">
+        <item>Gram</item>
+        <item>Kilogram</item>
+        <item>Ton</item>
+    </string-array>
+
+    <!-- Satuan untuk Konversi Waktu -->
+    <string-array name="time_units">
+        <item>Detik</item>
+        <item>Menit</item>
+        <item>Jam</item>
+    </string-array>
+
+    <!-- Satuan untuk Konversi Arus Listrik -->
+    <string-array name="current_units">
+        <item>Milliampere</item>
+        <item>Ampere</item>
+    </string-array>
+
+    <!-- Satuan untuk Konversi Suhu -->
+    <string-array name="temperature_units">
+        <item>Celcius</item>
+        <item>Kelvin</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <!-- Satuan untuk Konversi Intensitas Cahaya -->
+    <string-array name="luminous_intensity_units">
+        <item>Candela</item>
+    </string-array>
+
+        <!-- Tambahkan satuan kecepatan -->
+    <string-array name="speed_units">
+        <item>Meter per detik</item>
+        <item>Kilometer per jam</item>
+        <item>Mil per jam</item>
+    </string-array>
+
+    <!-- Tambahkan satuan frekuensi -->
+    <string-array name="frequency_units">
+        <item>Hertz</item>
+        <item>Kilohertz</item>
+        <item>Megahertz</item>
+        <item>Gigahertz</item>
+    </string-array>
+
+    <!-- Tambahkan satuan luas -->
+    <string-array name="area_units">
+        <item>Meter persegi</item>
+        <item>Hektar</item>
+        <item>Inci</item>
+    </string-array>
+
+    <!-- Satuan untuk Konversi Jumlah Zat -->
+    <string-array name="amount_of_substance_units">
+        <item>Mol</item>
+    </string-array>
+</resources>

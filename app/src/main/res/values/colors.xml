@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_text">#FF000000</color>
+    <color name="secondary_text">#FF757575</color>
+    <color name="background_color">#FFF3F4F6</color>
+    <color name="button_color">#FF6200EE</color>
+    <color name="spinner_background">#FFECEFF1</color>
+    <color name="edittext_background">#FFECEFF1</color>
+    <color name="primary">#FF9800</color> <!-- Warna latar belakang judul -->
+    <color name="soft_bluish_primary">#81D4FA</color>
+    <color name="shared_background_color">#81D4FA</color> <!-- Warna biru pastel yang konsisten -->
+
+</resources>
